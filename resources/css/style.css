@@ -99,3 +99,9 @@ h4 {
   padding-left: 35rem;
 }
 /* Footer */
+footer .copyright {
+  font-size: 0.75rem;
+  color: black;
+  padding-left: 2rem;
+  text-align: right;
+}
