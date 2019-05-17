@@ -55,7 +55,7 @@ header li {
   padding-left: 10rem;
 }
 h4 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-left: 10rem;
   font-style: italic;
   color: royalblue;
@@ -73,5 +73,29 @@ h4 {
   width: 40%;
   padding-top: 15rem;
   padding-left: 1.5rem;
+  color: royalblue;
 
 }
+/* Mail List */
+.mail-list {
+  align-content: center;
+  justify-content: center;
+  padding-top:5rem;
+  padding-left: 10rem;
+}
+.mail-list .button {
+  padding: 1rem 20rem;
+  border-radius: 4px;
+  background-color: royalblue;
+  color: white;
+  font-size: 2.5rem;
+}
+.mail-list .button:hover {
+  color: red;
+}
+/* social media icons */
+.social {
+  padding-top: 2rem;
+  padding-left: 35rem;
+}
+/* Footer */
