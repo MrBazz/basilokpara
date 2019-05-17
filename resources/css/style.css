@@ -1,0 +1,77 @@
+/* CSS Document */
+/* Universal styles */
+html {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+strong {
+  font-weight: bold;
+}
+
+/* Header */
+header {
+  padding: 1.5rem 2rem;
+  display: flex;
+  background-color: royalblue;
+  color: white;
+}
+
+header .logo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+header li {
+  display: inline;
+  padding-right: 2.5rem;
+  font-weight: bold;
+  color: white;
+  }
+/* Landing page */
+.flex-container {
+  width: 100%;
+}
+.flex-container .about-bazz {
+  width: 100%;
+  display: flex;
+  }
+.flex-container img {
+  width: 60%;
+  height: 45rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.flex-container .info {
+  width: 100%;
+}
+ h2 {
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-left: 10rem;
+}
+h4 {
+  font-size: 1.2rem;
+  padding-left: 10rem;
+  font-style: italic;
+  color: royalblue;
+}
+ p {
+  font-size: 1.3rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.flex-container span {
+  font-size: 2.3rem;
+  width: 40%;
+  padding-top: 15rem;
+  padding-left: 1.5rem;
+
+}
